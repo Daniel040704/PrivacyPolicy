@@ -58,4 +58,4 @@ We may update this Privacy Policy from time to time. The latest version will alw
     
 Email: danylofed322@gmail.com
 
-Developer: Danylo
+Developer: Danylo Fediv
