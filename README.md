@@ -1,108 +1,124 @@
-# Privacy Policy & Terms of Use
+# Privacy Policy
+Last updated: December 22, 2025
 
-Privacy Policy
+This Privacy Policy explains how the Courier Salary mobile application (“the App”) collects, uses, stores, and protects user information.
 
-Last updated: December 12, 2025
+By using the App, you agree to the terms of this Privacy Policy.
 
-This application (“Courier Salary”) is provided by Danylo Fediv (“Developer”) and is intended for authorized users only.
+1. Data Collection and Authentication
+Registration and Login
 
-⸻
+The App uses Firebase Authentication (provided by Google) to register and authenticate users.
 
-1. Information We Collect
+The following data is collected during account creation:
 
-The App collects and stores the following personal data:
-	•	Email address — used solely for user identification, authentication, and access to the App.
+Email address
 
-No other personal data is collected.
+Password
 
-⸻
+Purpose:
 
-2. How We Use Your Information
+User identification
 
-The collected email address is used exclusively for the following purposes:
-	•	User authentication via Firebase Authentication
-	•	Granting access to App functionality
-	•	Account management and administration
+Providing access to personal data
 
-The App does not use personal data for advertising, marketing, or tracking purposes.
+Synchronization across devices
 
-⸻
+2. Data Storage and Processing
+Cloud Storage
 
-3. Third-Party Services (Firebase)
+All user-entered data is securely stored in Google Firebase Firestore, including:
 
-The App uses Firebase, a platform provided by Google LLC, including:
-	•	Firebase Authentication — for secure user login and identity management
-	•	Cloud Firestore — for storing application-related data associated with authorized users
+Work shift types
 
-Firebase may process data in accordance with its own Privacy Policy and security standards.
-All data is protected using industry-standard encryption and security practices.
+Number of orders
 
-⸻
+Salary and payout amounts
 
-4. Data Storage and Security
+Tariff and calculation settings
 
-Personal data is stored securely on Firebase servers.
-We do not sell, rent, or share personal data with third parties for commercial or advertising purposes.
+Local Storage
 
-Access to stored data is restricted and protected by authentication and authorization mechanisms.
+Some settings (such as language or temporary order parameters) may be stored locally on the device to ensure proper offline functionality and faster performance.
 
-⸻
+3. Telegram Integration (Telegram Bot)
+How it works
 
-5. Account Creation
+The App integrates with a Telegram bot to automatically receive mileage data.
 
-User accounts are created by a company administrator.
-Self-registration is not available within the App.
+Data processed by the bot:
 
-⸻
+User identifier (e.g. #DanyloF)
 
-6. Account Deletion
+Numeric value (mileage)
+
+Chat ID (used to determine a workplace or working point)
+
+The bot does not read, store, or process any other messages or personal content.
+
+Synchronization
+
+All received data is stored in Firebase Firestore and instantly synchronized with the corresponding user profile in the App.
+
+4. Use of Data
+
+Collected data is used exclusively for App functionality, including:
+
+Salary calculation
+
+Fuel and vehicle depreciation compensation
+
+Weekly and monthly income statistics
+
+The App does not use data for advertising, marketing, or tracking purposes.
+
+5. Data Security
+Access Control
+
+Access to data is restricted using Firebase Security Rules.
+Each user can access only their own data.
+
+Secrets Protection
+
+All access tokens, API keys, and credentials (including Telegram bot tokens and Firebase keys) are securely stored using Firebase Secret Manager.
+
+6. User Control Over Data
+
+Users have full control over their data:
+
+Editing or deleting any work records
+
+Updating calculation and tariff settings at any time
+
+Account Deletion
 
 Users can delete their account directly within the App.
+Once deleted:
 
-When the Delete Account option is used:
-	•	The user account is immediately deactivated
-	•	The associated email address and user data stored in Firebase Authentication and Cloud Firestore are deleted or permanently anonymized
-	•	Access to the App is permanently revoked
+The account is permanently deactivated
 
-⸻
+All associated data is deleted or anonymized
 
-7. Data Retention
+Access to the App is permanently revoked
 
-Personal data is retained only for as long as necessary to:
-	•	Provide access to the App, or
-	•	Comply with applicable legal or internal operational requirements
+7. Third-Party Services
 
-After account deletion, data is removed or anonymized within a reasonable timeframe.
+The App uses the following third-party services:
 
-⸻
+Google Firebase (authentication, database, backend services)
 
-8. Authorized Use
+Telegram API (data transfer from bot to database)
 
-The App is intended solely for authorized users.
-Any unauthorized access, distribution, or use of the App is strictly prohibited.
+Apple Push / Local Notifications (notifications related to mileage updates)
 
-⸻
+Each service operates under its own privacy policy.
 
-9. Service Availability
+8. Changes to This Policy
 
-We reserve the right to modify, suspend, or discontinue the App or any part of its functionality at any time without prior notice.
+This Privacy Policy may be updated from time to time.
+Any changes will be published in the updated version of this document.
 
-⸻
-
-10. Limitation of Liability
-
-The App is provided “as is”, without warranties of any kind, express or implied.
-
-⸻
-
-11. Changes to This Privacy Policy
-
-We may update this Privacy Policy from time to time.
-Changes become effective upon publication within the App or on the associated website.
-
-⸻
-
-12. Contact Information
+9. Contact Information
 
 If you have any questions regarding this Privacy Policy, please contact:
 
