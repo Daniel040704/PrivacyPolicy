@@ -131,4 +131,5 @@ Any changes will be published in the updated version of this document.
 If you have any questions regarding this Privacy Policy, please contact:
 
 Email: danylofed322@gmail.com
+
 Developer: Danylo Fediv
