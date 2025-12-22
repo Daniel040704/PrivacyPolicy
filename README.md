@@ -1,5 +1,4 @@
 # Privacy Policy
-## **Privacy Policy**
 
 **Last updated:** December 22, 2025
 
@@ -128,25 +127,6 @@ Any changes will be published in the updated version of this document.
 ---
 
 ### **9. Contact Information**
-
-If you have any questions regarding this Privacy Policy, please contact:
-
-**Developer:** Danylo
-**Email:** *[your contact email for App Store]*
-
----
-
-## 🔧 Що я рекомендую зробити далі
-
-Хочеш — я можу:
-
-* ✅ **написати App Store Privacy Details (чекбокси + формулювання)**
-* ✅ **перевірити Terms of Use (EULA)**
-* ✅ **зробити коротку “in-app” версію**
-* ✅ **підказати, де саме в App Store Connect це вставити**
-
-Скажи, що наступне — і доб’ємо до ідеалу 🚀
-
 
 If you have any questions regarding this Privacy Policy, please contact:
 
