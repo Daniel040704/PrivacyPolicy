@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Last updated:** December 22, 2025
+**Last updated:** January 3, 2025
 
 This Privacy Policy explains how the **Courier Salary** mobile application (“the App”) collects, uses, stores, and protects user information.
 
@@ -14,7 +14,21 @@ By using the App, you agree to the terms of this Privacy Policy.
 
 The App uses **Firebase Authentication** (provided by Google) to register and authenticate users.
 
-The following data is collected during account creation:
+#### Access-Key Based Registration
+
+Registration in the App is **restricted** and available **only to users who possess a valid access key**.
+
+* The access key is **issued manually by the App administrator**
+* The access key is used **solely to verify eligibility for account creation**
+* Without a valid access key, account registration is not possible
+
+The access key:
+
+* Is **not used for tracking**
+* Is **not shared with third parties**
+* Is **not used for advertising or analytics purposes**
+
+#### Data collected during account creation:
 
 * Email address
 * Password
@@ -22,7 +36,7 @@ The following data is collected during account creation:
 **Purpose:**
 
 * User identification
-* Providing access to personal data
+* Secure access to personal data
 * Synchronization across devices
 
 ---
@@ -40,7 +54,7 @@ All user-entered data is securely stored in **Google Firebase Firestore**, inclu
 
 #### Local Storage
 
-Some settings (such as language or temporary order parameters) may be stored locally on the device to ensure proper offline functionality and faster performance.
+Some settings (such as language preferences or temporary order parameters) may be stored locally on the device to ensure proper offline functionality and improved performance.
 
 ---
 
@@ -54,25 +68,25 @@ The App integrates with a **Telegram bot** to automatically receive mileage data
 
 * User identifier (e.g. `#DanyloF`)
 * Numeric value (mileage)
-* Chat ID (used to determine a workplace or working point)
+* Chat ID (used only to determine a workplace or working point)
 
 The bot **does not read, store, or process any other messages or personal content**.
 
 #### Synchronization
 
-All received data is stored in **Firebase Firestore** and instantly synchronized with the corresponding user profile in the App.
+All received data is stored in **Firebase Firestore** and synchronized with the corresponding user profile in the App.
 
 ---
 
 ### **4. Use of Data**
 
-Collected data is used **exclusively for App functionality**, including:
+Collected data is used **exclusively to provide core App functionality**, including:
 
 * Salary calculation
 * Fuel and vehicle depreciation compensation
 * Weekly and monthly income statistics
 
-The App **does not use data for advertising, marketing, or tracking purposes**.
+The App **does not use user data for advertising, marketing, profiling, or tracking**.
 
 ---
 
@@ -80,12 +94,12 @@ The App **does not use data for advertising, marketing, or tracking purposes**.
 
 #### Access Control
 
-Access to data is restricted using **Firebase Security Rules**.
+Access to user data is restricted using **Firebase Security Rules**.
 Each user can access **only their own data**.
 
 #### Secrets Protection
 
-All access tokens, API keys, and credentials (including Telegram bot tokens and Firebase keys) are securely stored using **Firebase Secret Manager**.
+All access tokens, API keys, and credentials (including Telegram bot tokens and Firebase keys) are securely stored using **Google Firebase Secret Manager** or equivalent secure storage mechanisms.
 
 ---
 
@@ -93,16 +107,17 @@ All access tokens, API keys, and credentials (including Telegram bot tokens and 
 
 Users have full control over their data:
 
-* Editing or deleting any work records
+* Editing or deleting work records
 * Updating calculation and tariff settings at any time
 
 #### Account Deletion
 
 Users can delete their account directly within the App.
+
 Once deleted:
 
 * The account is permanently deactivated
-* All associated data is deleted or anonymized
+* All associated user data is deleted or anonymized
 * Access to the App is permanently revoked
 
 ---
@@ -113,7 +128,7 @@ The App uses the following third-party services:
 
 * **Google Firebase** (authentication, database, backend services)
 * **Telegram API** (data transfer from bot to database)
-* **Apple Push / Local Notifications** (notifications related to mileage updates)
+* **Apple Push Notifications / Local Notifications** (notifications related to mileage updates)
 
 Each service operates under its own privacy policy.
 
@@ -130,6 +145,6 @@ Any changes will be published in the updated version of this document.
 
 If you have any questions regarding this Privacy Policy, please contact:
 
-Email: danylofed322@gmail.com
+**Email:** [danylofed322@gmail.com](mailto:danylofed322@gmail.com)
+**Developer:** Danylo Fediv
 
-Developer: Danylo Fediv
